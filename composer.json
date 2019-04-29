@@ -1,0 +1,28 @@
+{
+    "name": "anwar/laravelmenu",
+    "description": "Laravel multi label menu system",
+    "type": "library",
+    "authors": [
+        {
+            "name": "anwar jahid",
+            "email": "ajr.jahid@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Anwar\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anwar\\Laravelmenu\\LaravelMenuProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
